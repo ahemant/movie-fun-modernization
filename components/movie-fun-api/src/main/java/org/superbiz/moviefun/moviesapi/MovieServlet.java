@@ -50,6 +50,7 @@ public class MovieServlet extends HttpServlet {
     }
 
     private void process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String action = request.getParameter("action");
 
         if ("Add".equals(action)) {
