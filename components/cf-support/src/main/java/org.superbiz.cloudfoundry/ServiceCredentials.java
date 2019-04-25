@@ -1,4 +1,4 @@
-package org.superbiz.moviefun;
+package org.superbiz.cloudfoundry;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -36,3 +36,4 @@ public class ServiceCredentials {
         throw new IllegalStateException("No "+ serviceName + " found in VCAP_SERVICES");
     }
 }
+
